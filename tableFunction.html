@@ -1,0 +1,102 @@
+<script>
+    //  let num=prompt("Enter number");
+     
+    //      for(let i=1;i<=10;i++){
+    //          let res=num*i;
+    //          console.log(num+"*"+i+"="+res)
+    // }
+
+
+
+
+
+
+
+
+        //  let students=[
+        //     {name:"ali",
+        //     subject:["bio","chemistry","physics"]
+        // },
+        // {
+        //     name:"rameez",
+        //     subject:["urdu","English","maths"]
+        // },
+        // {
+        //     name:"aqsa",
+        //     subject:["pakistan studies","stats","chemistry"]
+        // }
+        //  ]
+        //  let mainSubject=[];
+        //  for(let student of students){
+        //      for(let subject of student.subject){
+        //         // if(a.includes(student)==false)
+        //         mainSubject.push(subject)
+        //     }
+        //  }
+
+
+
+
+
+
+
+
+    let data=[
+        [10,20,30,40,50],
+        [10,20,30,40,50],
+        [10,20,30,40,50],
+        [10,20,30,40,50],
+        [10,20,30,40,50]        
+    ]
+    // let res=mainArray[data]
+    // console.log(res)
+   let res=  combineNumbers(data);
+
+   console.log(res);
+       function combineNumbers(data){
+        let mainArray=[];
+
+        for(let mini of data){
+            for( let number of mini)
+            {
+
+                mainArray.push(number);                
+            }
+        }
+        return mainArray;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let table=prompt("Enter number");
+// // function num(table){
+
+//     for(let i=1;i<=10;i++){
+//         res=table*i;
+//         console.log(table+"*"+i+"="+res)
+    
+//     }
+    // return num;
+// }
+
+
+
+
+
+
+
+
+</script>
